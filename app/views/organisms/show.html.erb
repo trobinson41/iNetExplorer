@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Order:</strong>
+  <%= @organism.order %>
+</p>
+
+<p>
+  <strong>Family:</strong>
+  <%= @organism.family %>
+</p>
+
+<p>
+  <strong>Genus:</strong>
+  <%= @organism.genus %>
+</p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @organism.species %>
+</p>
+
+<%= link_to 'Edit', edit_organism_path(@organism) %> |
+<%= link_to 'Back', organisms_path %>
